@@ -74,19 +74,6 @@ L'app accetta un file Excel con le seguenti colonne obbligatorie:
 
 ---
 
-## 🌍 Deploy online (Render, Fly.io, ecc.)
-
-1. Clona questo progetto
-2. Installa le dipendenze
-3. Usa `gunicorn` per il deploy:
-   ```bash
-   gunicorn -b 0.0.0.0:5000 app:app
-   ```
-
-Puoi anche usare servizi come [Render.com](https://render.com/) o [Railway](https://railway.app/) per pubblicare facilmente l'app.
-
----
-
 ## 📄 Licenza
 
 Questo progetto è open source e gratuito. Puoi usarlo, modificarlo e distribuirlo liberamente.
