@@ -74,6 +74,19 @@ L'app accetta un file Excel con le seguenti colonne obbligatorie:
 
 ---
 
+### 🔧 Consiglio aggiuntivo
+
+Aggiungi anche un file `requirements.txt` con:
+
+```txt
+flask
+fpdf
+pandas
+openpyxl
+```
+
+---
+
 ## 📄 Licenza
 
 Questo progetto è open source e gratuito. Puoi usarlo, modificarlo e distribuirlo liberamente.
