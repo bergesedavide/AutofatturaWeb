@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AutoFattura Web - Generatore PDF</title>
+<link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+<header>AutoFattura Web - Generatore PDF</header>
+<main>
+  <form id="uploadForm">
+    <input type="file" name="file" accept=".xlsx,.xls" required />
+    <button type="submit">Genera Fatture</button>
+  </form>
+
+  <div id="status"></div>
+
+  <h3>Anteprima Fatture</h3>
+  <div id="fattureList"></div>
+  
+  <div id="previewContainer">
+      <h4>Anteprima:</h4>
+      <iframe id="pdfPreview" src=""></iframe>
+    </div>
+    
+    <a href="#" id="downloadLink" class="download-link" style="display:none;" target="_blank">Scarica fatture (ZIP)</a>
+</main>
+
+<script src="../static/script.js"></script>
+</body>
+</html>
